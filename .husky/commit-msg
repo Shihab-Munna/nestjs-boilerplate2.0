@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Check if commit message is empty
+commit_msg=$(cat "$1")
+if [ -z "$commit_msg" ] || [ -z "$(echo "$commit_msg" | tr -d '[:space:]')" ]; then
+  echo "❌ Commit message cannot be empty!"
+  exit 1
+fi
