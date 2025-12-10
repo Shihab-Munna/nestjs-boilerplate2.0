@@ -431,15 +431,6 @@ Then run:
 docker-compose up -d
 ```
 
-## 📝 Next Steps
-
-1. Remove `ExampleModule` from `app.module.ts` when ready
-2. Create your own modules using NestJS CLI
-3. Customize configuration as needed
-4. Add your business logic
-5. Set up CI/CD pipeline
-6. Configure production environment
-
 ## 📄 License
 
 MIT - Feel free to use and modify as needed.
